@@ -210,6 +210,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_J7tydc": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- BEGIN: Popular Right Now Section -->\n<section class=\"popular-section\">\n  <!-- Section Heading linked to the Best Sellers collection -->\n  <h2><a href=\"/collections/best-sellers\">POPULAR RIGHT NOW</a></h2>\n  \n  <!-- Scroll Buttons (visible on desktop only) -->\n  <div class=\"scroll-buttons\">\n    <button class=\"scroll-button left\">&lt;</button>\n    <button class=\"scroll-button right\">&gt;</button>\n  </div>\n  \n  <!-- Best Sellers Tiles -->\n  <div class=\"collection-container\">\n    {% if collections['best-sellers'] and collections['best-sellers'].products.size > 0 %}\n      {% for product in collections['best-sellers'].products limit: 8 %}\n        <div class=\"collection-card\">\n          <a href=\"{{ product.url }}\">\n            <img src=\"{{ product.featured_image | img_url: '500x500' }}\" \n                 alt=\"{{ product.title }}\" \n                 class=\"collection-image\">\n          </a>\n          <h3>{{ product.title | upcase }}</h3>\n          {% if product.description != blank %}\n            <p>{{ product.description | strip_html | truncatewords: 20 }}</p>\n          {% endif %}\n          <a href=\"{{ product.url }}\" class=\"collection-cta\">Shop Now</a>\n        </div>\n      {% endfor %}\n    {% else %}\n      <p>No best sellers found.</p>\n    {% endif %}\n  </div>\n</section>\n\n<style>\n  /* Overall Section */\n  .popular-section {\n    position: relative; /* Needed for absolute positioning of scroll buttons */\n    width: 100%;\n    padding: 20px;\n    background-color: #fff;\n    box-sizing: border-box;\n  }\n  \n  .popular-section h2 {\n    font-size: 24px;\n    margin-bottom: 10px;\n    color: #000;\n    text-align: left;\n  }\n  \n  .popular-section h2 a {\n    text-decoration: none;\n    color: inherit;\n  }\n  \n  /* Scroll Buttons */\n  .scroll-buttons {\n    position: absolute;\n    top: 20px;\n    right: 20px;\n    display: flex;\n    gap: 5px;\n  }\n  .scroll-button {\n    background-color: rgba(0, 0, 0, 0.7);\n    color: #fff;\n    border: none;\n    padding: 5px 10px;\n    cursor: pointer;\n    font-size: 16px;\n    border-radius: 4px;\n  }\n  /* Hide scroll buttons on mobile (adjust breakpoint as needed) */\n  @media screen and (max-width: 1024px) {\n    .scroll-buttons {\n      display: none;\n    }\n  }\n  \n  /* Collection Container (Horizontal Scroll) */\n  .collection-container {\n    display: flex;\n    flex-wrap: nowrap;\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch;\n    gap: 20px;\n    margin-top: 20px;\n    padding-bottom: 10px;\n  }\n  \n  /* Collection Card */\n  .collection-card {\n    flex: 0 0 auto;\n    width: 300px;\n    background-color: #f9f9f9;\n    border-radius: 4px;\n    padding: 10px;\n    box-sizing: border-box;\n    text-align: left;\n  }\n  \n  /* Product Images: Almost Square */\n  .collection-image {\n    width: 100%;\n    aspect-ratio: 1 / 1;\n    object-fit: cover;\n    display: block;\n    margin: 0 auto;\n    border-radius: 4px;\n  }\n  \n  .collection-card h3 {\n    margin: 10px 0 5px;\n    font-size: 16px;\n    text-transform: uppercase;\n    color: #000;\n  }\n  \n  .collection-card p {\n    margin: 5px 0 10px;\n    font-size: 14px;\n    color: #333;\n  }\n  \n  /* CTA Button */\n  .collection-cta {\n    display: inline-block;\n    padding: 10px 20px;\n    background-color: #CBFC56;\n    color: #000;\n    font-size: 14px;\n    text-transform: uppercase;\n    text-decoration: none;\n    transition: background-color 0.3s ease;\n    border-radius: 4px;\n  }\n  \n  .collection-cta:hover {\n    background-color: #CBFC56;\n  }\n  \n  @media screen and (max-width: 768px) {\n    .collection-card {\n      width: 250px;\n    }\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function(){\n    var container = document.querySelector('.collection-container');\n    var leftBtn = document.querySelector('.scroll-button.left');\n    var rightBtn = document.querySelector('.scroll-button.right');\n\n    leftBtn.addEventListener('click', function(){\n      container.scrollBy({left: -300, behavior: 'smooth'});\n    });\n    rightBtn.addEventListener('click', function(){\n      container.scrollBy({left: 300, behavior: 'smooth'});\n    });\n  });\n</script>\n<!-- END: Popular Right Now Section -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -218,10 +231,10 @@
           "settings": {
             "collection": "",
             "subheading": "",
-            "title": "",
-            "url": "",
+            "title": "Red Ferrari-Inspired Baby Tee",
+            "url": "shopify://products/red-ferrari-inspired-baby-tee-trendy-chic",
             "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -267,9 +280,9 @@
         "collections_per_row": 3,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Collection list",
+        "title": "Popular Right Now",
         "content": "",
-        "link_url": "",
+        "link_url": "shopify://collections/best-sellers",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -920,6 +933,7 @@
     "image-link-blocks",
     "scrolling-text",
     "custom_liquid_kVMWfT",
+    "custom_liquid_J7tydc",
     "collection-list",
     "featured-collection",
     "impact-text",
