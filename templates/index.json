@@ -186,8 +186,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
+        "text": " • DELIVERY IN 24-48 HOURS IN MUMBAI & SUPER FAST ACROSS INDIA WITH COD •",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
