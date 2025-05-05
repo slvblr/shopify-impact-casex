@@ -17,13 +17,29 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Flat 5% OFF on First Order",
+            "url": ""
+          }
+        },
+        "message_Yykayw": {
+          "type": "message",
+          "settings": {
+            "text": "Flat 10% OFF on order above ₹999",
+            "url": ""
+          }
+        },
+        "message_hY3NkE": {
+          "type": "message",
+          "settings": {
+            "text": "FREE Shipping & COD Available",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_Yykayw",
+        "message_hY3NkE"
       ],
       "settings": {
         "enable_sticky": false,
