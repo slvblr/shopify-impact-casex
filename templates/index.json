@@ -229,8 +229,8 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "subheading": "",
+            "collection": "fitted-baby-tees",
+            "subheading": "Discover perfectly fitted baby tees to elevate your casual style. Ideal for pairing with jeans, shorts, or skirts for a comfy yet chic look.",
             "title": "Red Ferrari-Inspired Baby Tee",
             "url": "shopify://products/red-ferrari-inspired-baby-tee-trendy-chic",
             "heading_tag": "h2",
@@ -280,9 +280,9 @@
         "collections_per_row": 3,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Popular Right Now",
+        "title": "Shop By Category",
         "content": "",
-        "link_url": "shopify://collections/best-sellers",
+        "link_url": "shopify://collections",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
