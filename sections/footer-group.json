@@ -17,6 +17,19 @@
         "free-shipping": {
           "type": "item",
           "settings": {
+            "icon": "picto-validation",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "7-Day Return & Exchange",
+            "content": "<p>Hassle-free shopping with Y2k Store’s 7-day easy returns.<br/></p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
             "icon": "picto-box",
             "mobile_icon_width": 24,
             "icon_width": 24,
@@ -24,54 +37,27 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
-          }
-        },
-        "customer-support": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "content": "<p>Enjoy free and fast shipping on all prepaid orders.</p>"
           }
         },
         "discount": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-phone",
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
-          }
-        },
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Reliable Customer Support",
+            "content": "<p>Available 7 days a week with instant replies for all your needs!<br/><br/></p>"
           }
         }
       },
       "block_order": [
         "free-shipping",
         "customer-support",
-        "discount",
-        "payment"
+        "discount"
       ],
       "settings": {
         "full_width": true,
@@ -95,7 +81,7 @@
         "content": "<p><br/></p>",
         "button_text": "Subscribe",
         "subtext": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
