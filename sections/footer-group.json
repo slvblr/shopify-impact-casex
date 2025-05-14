@@ -85,6 +85,23 @@
         "text_color": ""
       }
     },
+    "newsletter_HdkeGw": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": false,
+        "title": "Sign up for new stories and personal offers",
+        "content": "<p><br/></p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "custom_liquid_DMdHfi": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -144,6 +161,7 @@
   },
   "order": [
     "text-with-icons",
+    "newsletter_HdkeGw",
     "custom_liquid_DMdHfi",
     "footer"
   ]
