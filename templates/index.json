@@ -102,7 +102,7 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG-0839.jpg",
+            "image": "shopify://shop_images/text-me-when-you-get-home.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://products/bold-text-me-when-you-get-home-graphic-t-shirt-casual-streetwear-statement-tee",
@@ -115,10 +115,10 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/57239E66-6A3F-455C-9EFB-04069DFD1C1D.jpg",
+            "image": "shopify://shop_images/i-love-dilfs.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://products/my-girlfriend-is-hotter-than-you-funny-statement-t-shirt-trendy-bold-tee",
+            "link_url": "shopify://products/bold-funny-i-❤️-milfs-t-shirt-trendy-statement",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -128,9 +128,10 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/i-girlfriend-hotter-than-you.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/my-girlfriend-is-hotter-than-you-funny-statement-t-shirt-trendy-bold-tee",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -140,9 +141,10 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/you-are-gold-tshirt.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/trendy-white-graphic-t-shirt-you-are-gold-baby-solid-gold",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -152,9 +154,10 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ugly-people-hate-me.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/ugly-people-hate-me-baby-tee-crop-top",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -171,7 +174,7 @@
       ],
       "settings": {
         "full_width": false,
-        "block_size": "medium",
+        "block_size": "large",
         "subheading": "",
         "title": "",
         "content": "",
