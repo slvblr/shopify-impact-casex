@@ -102,9 +102,10 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG-0839.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/bold-text-me-when-you-get-home-graphic-t-shirt-casual-streetwear-statement-tee",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -114,9 +115,10 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/57239E66-6A3F-455C-9EFB-04069DFD1C1D.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/my-girlfriend-is-hotter-than-you-funny-statement-t-shirt-trendy-bold-tee",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
