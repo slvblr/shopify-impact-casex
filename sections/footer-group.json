@@ -1,1 +1,150 @@
-{"type":"footer","name":"Footer group","sections":{"text-with-icons":{"type":"text-with-icons","blocks":{"free-shipping":{"type":"item","settings":{"icon":"picto-box","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Free shipping","content":"<p>Tell your customers about your shipping offer.<\/p>"}},"customer-support":{"type":"item","settings":{"icon":"picto-customer-support","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Customer service","content":"<p>Tell your customers how they can reach you.<\/p>"}},"discount":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Refer a friend","content":"<p>Tell your customers about your promotional offers.<\/p>"}},"payment":{"type":"item","settings":{"icon":"picto-lock","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Secure payment","content":"<p>Tel your customers about your payment methods.<\/p>"}}},"block_order":["free-shipping","customer-support","discount","payment"],"settings":{"full_width":true,"heading_tag":"h6","text_alignment":"center","icon_spacing":"small"}},"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image_width":150,"heading_size":"h3","title":"Sign up for new stories and personal offers"}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"About","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}}},"block_order":["newsletter","links","text"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"show_locale_selector":true}}},"order":["text-with-icons","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Tell your customers about your shipping offer.</p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>Tell your customers how they can reach you.</p>"
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Refer a friend",
+            "content": "<p>Tell your customers about your promotional offers.</p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Tel your customers about your payment methods.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "discount",
+        "payment"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_DMdHfi": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<footer class=\"footer-section\">\n  <div class=\"footer-container\">\n    <!-- Left Section: Info & Location and Policy -->\n    <div class=\"footer-column footer-box info-box\">\n      <h4>INFO & LOCATION</h4>\n      <p>\n        Shubhangan Tower Jankalyan nagar, Malad West Mumbai - 400095\n      </p>\n      <p>Email: <a href=\"mailto:hello@y2kstore.com\">hello@y2kstore.com</a></p>\n      <p>Tel: <a href=\"tel:+91 97848 11805\">+91 97848 11805</a></p>\n      \n      <!-- Policy Section -->\n      <div class=\"shop-policy\">\n        <h4>POLICY</h4>\n        <ul>\n          <li><a href=\"https://y2kstore.in/pages/privacy-policy\">Privacy Policy</a></li>\n          <li><a href=\"https://y2kstore.in/pages/shipping-policy\">Shipping Policy</a></li>\n          <li><a href=\"https://y2kstore.in/pages/refund-policy\">Refund Policy</a></li>\n          <li><a href=\"https://y2kstore.in/pages/terms-conditions\">Terms & Conditions</a></li>\n          <li><a href=\"https://y2kstore.in/pages/contact\">Contact Us</a></li>\n        </ul>\n      </div>\n    </div>\n\n    <!-- Middle Section: Branding & Details -->\n    <div class=\"footer-column footer-box branding-box\">\n      <h4>y2k store</h4>\n      <p>\n        <strong class=\"highlight\">GST Number:</strong> \n        <span class=\"highlight enlarge\">08FBDPB2899K1Z8</span>\n      </p>\n      <p>\n        <strong class=\"highlight\">Instant Support:</strong> \n        <span class=\"highlight enlarge\">+91 97848 11805</span>\n      </p>\n      <p>\n        At y2k store, we embrace the nostalgic yet futuristic vibe of the early 2000s with a modern twist. Explore our site to discover unique, neon-infused fashion and elevate your style.\n      </p>\n    </div>\n\n    <!-- Right Section: Shop Links and Social Media -->\n    <div class=\"footer-column footer-box links-box\">\n      <div class=\"shop-policy\">\n        <h4>SHOP</h4>\n        <ul>\n          <li><a href=\"/collections/women\">Women</a></li>\n          <li><a href=\"/collections/men\">Men</a></li>\n         \n          <li><a href=\"https://y2kstore.in/collections/all\">Sale</a></li>\n         \n          <li><a href=\"https://y2kstore.in/apps/track123\">Track Order</a></li>\n          \n        </ul>\n      </div>\n      <!-- Social Media Cards -->\n      <div class=\"social-cards\">\n        <!-- Pinterest -->\n        <div class=\"social-card\">\n          <a href=\"https://in.pinterest.com/y2kstore/\" target=\"_blank\" aria-label=\"Pinterest\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/pinterest.png\" alt=\"Pinterest\">\n          </a>\n        </div>\n        <!-- Instagram -->\n        <div class=\"social-card\">\n          <a href=\"https://www.instagram.com/y2kstoreindia/\" target=\"_blank\" aria-label=\"Instagram\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/camera.png\" alt=\"Instagram\">\n          </a>\n        </div>\n        <!-- WhatsApp -->\n        <div class=\"social-card\">\n          <a href=\"https://wa.me/9983500058\" target=\"_blank\" aria-label=\"WhatsApp\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/whatsapp.png\" alt=\"WhatsApp\">\n          </a>\n        </div>\n        <!-- Call -->\n        <div class=\"social-card\">\n          <a href=\"tel:+91 861 930 0894\" aria-label=\"Call\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/calling.png\" alt=\"Call\">\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Bottom Section -->\n  <div class=\"footer-bottom\">\n    <p>© 2025 y2k store.</p>\n  </div>\n</footer>\n\n<style>\n/* Footer Section with updated gradient and text color #d7cdb9 */\n.footer-section {\n  background: linear-gradient(135deg, #1c1a17 0%, #1c1a17 70%, #292723 100%);\n  color: #d7cdb9;\n  padding: 40px 20px;\n  font-size: 14px;\n}\n\n/* Footer Container */\n.footer-container {\n  display: flex;\n  justify-content: space-between;\n  gap: 20px;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding-bottom: 20px;\n  border-bottom: 1px solid rgba(215, 205, 185, 0.3);\n}\n\n/* Footer Columns */\n.footer-column {\n  flex: 1;\n  padding: 20px;\n}\n\n/* Footer Boxes with a dark translucent overlay for readability */\n.footer-box {\n  background: rgba(0, 0, 0, 0.7);\n  border: 1px solid rgba(215, 205, 185, 0.2);\n  padding: 20px;\n}\n\n/* Highlights for GST and Support */\n.highlight {\n  color: #d7cdb9; /* Updated text color */\n  font-weight: bold;\n}\n\n.enlarge {\n  font-size: 18px;\n}\n\n/* Links */\na {\n  color: #d7cdb9; /* Updated text color */\n  text-decoration: none;\n}\n\na:hover {\n  color: #d7cdb9; /* Remains the same on hover */\n  text-decoration: none;\n}\n\n/* Shop Policy Section */\n.shop-policy {\n  margin-top: 20px;\n}\n\n.shop-policy h4 {\n  margin-bottom: 10px;\n}\n\n/* Social Media Cards */\n.social-cards {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 15px;\n  margin-top: 20px;\n}\n\n.social-card {\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(215, 205, 185, 0.3);\n  padding: 15px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.social-card img {\n  width: 30px;\n  height: 30px;\n  transition: transform 0.3s ease;\n}\n\n.social-card:hover img {\n  transform: scale(1.2);\n}\n\n/* Footer Bottom */\n.footer-bottom {\n  text-align: center;\n  margin-top: 20px;\n  font-size: 12px;\n}\n\n/* Responsive Design for Mobile */\n@media screen and (max-width: 768px) {\n  .footer-container {\n    flex-direction: column;\n    text-align: left;\n  }\n\n  .social-cards {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 15px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Sign up for new stories and personal offers",
+            "content": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "About",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "custom_liquid_DMdHfi",
+    "footer"
+  ]
+}
