@@ -15,7 +15,13 @@
         "liquid_WC49Di": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Women's Day Sale</title>\n    <style>\n        /* Reset all potential inherited styles */\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n            border: none !important; /* Remove any possible borders */\n        }\n\n        /* Ensure no background is applied */\n        body, html {\n            background: none !important;\n        }\n\n        /* Remove any potential border or background from parent elements */\n        .discount-banner, .discount-banner * {\n            background: transparent !important;\n            border: none !important;\n            outline: none !important;\n        }\n\n        /* Ensure the image is displayed properly */\n        .discount-banner img {\n            width: 100%;\n            height: auto;\n            display: block;\n            background: transparent !important;\n            border: none !important;\n        }\n    </style>\n</head>\n<body>\n\n    <div class=\"discount-banner\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0651/0238/1098/files/SALE.jpg?v=1742823863\" alt=\"Sale Banner\">\n    </div>\n\n</body>\n</html>"
+            "liquid": "{% comment %}\n  SUPER FAST DELIVERY ACROSS INDIA <br> For Baby Tees & T-shrits\n  (Applies to Baby Tees and Oversized T-Shirts only)\n{% endcomment %}\n<div class=\"delivery-banner\" style=\"background: #e6f7ff; border: 1px solid #b3e0ff; padding: 10px; text-align: center; font-size: 14px; margin-bottom: 15px; border-radius: 5px;\">\n  <strong> SUPER FAST DELIVERY ACROSS INDIA  | COD AVAILABLE </strong>\n</div>"
+          }
+        },
+        "liquid_DUrRpx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .discount-banner {\n    background: linear-gradient(90deg, #C4FF00, #E0FF80); /* New green gradient */\n    color: #000; /* Black text for better contrast */\n    font-size: 16px; /* Adjusted font size */\n    font-weight: bold;\n    text-align: center;\n    padding: 12px 20px;\n    border-radius: 5px;\n    margin: 15px 0;\n    display: flex;\n    flex-direction: column; /* Allows text to be on two lines */\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n\n  /* Ensure text and box stay consistent on mobile */\n  @media (max-width: 768px) {\n    .discount-banner {\n      font-size: 14px; /* Slightly smaller text to fit */\n      padding: 10px 15px;\n    }\n  }\n</style>\n\n<div class=\"discount-banner\">\n  FLAT 5% OFF ON FIRST ORDER | CODE: FIRST5\n</div>"
           }
         },
         "liquid_Wh9bAg": {
@@ -114,6 +120,7 @@
       },
       "block_order": [
         "liquid_WC49Di",
+        "liquid_DUrRpx",
         "liquid_Wh9bAg",
         "liquid_qDUq9z",
         "title",
