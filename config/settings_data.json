@@ -142,10 +142,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "body {color: #000000; background-color: #ffffff;}",
-      "/* Replace all #d7cdb9 with black */* {color: #000000 !important;}",
-      "[style*=\"#d7cdb9\"] {color: #000000 !important; background-color: #000000 !important;}"
-    ]
+    "custom_css": []
   }
 }
