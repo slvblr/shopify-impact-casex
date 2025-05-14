@@ -75,7 +75,7 @@
         "liquid_BJitkb": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- sections/product-tags.liquid -->\n<div class=\"product-tags\">\n  <span class=\"tag-box\">100% PREMIUM COTTON</span>\n  <span class=\"tag-box\">FITTED BABY TEES</span>\n</div>\n\n<style>\n.product-tags {\n  display: flex;\n  gap: 12px;\n  flex-wrap: wrap;\n  margin-top: 16px;\n}\n\n.tag-box {\n  padding: 6px 12px;\n  border: 1px solid #333;\n  font-size: 14px;\n  color: #333;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n</style>"
+            "liquid": "<!-- sections/product-tags.liquid -->\n<div class=\"product-tags\">\n  <span class=\"tag-box\">100% COTTON</span>\n  <span class=\"tag-box\">OVERSIZED</span>\n</div>\n\n<style>\n.product-tags {\n  display: flex;\n  gap: 12px;\n  flex-wrap: wrap;\n  margin-top: 16px;\n}\n\n.tag-box {\n  padding: 6px 12px;\n  border: 1px solid #333;\n  font-size: 14px;\n  color: #333;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n</style>"
           }
         },
         "variant_picker": {
