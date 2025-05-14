@@ -32,6 +32,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_JwXemq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background-color: #e8f5e9; padding: 20px; border: 1px solid #c8e6c9; text-align: left;\">\n  <div style=\"color: #2e7d32; font-weight: bold; font-size: 18px; margin-bottom: 5px; display: flex; align-items: center; gap: 8px;\">\n    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.89 21.975c-1.325.974-3.176.9-4.391-.209a131.923 131.923 0 0 1-9.792-9.94 3.17 3.17 0 0 1-.753-1.5C1.56 8.293.727 3.222 1.976 1.972c1.25-1.25 6.32-.416 8.352-.022.56.111 1.078.371 1.502.752a131.922 131.922 0 0 1 9.94 9.792c1.109 1.214 1.18 3.067.209 4.392-.701.955-1.442 1.914-2.31 2.78-.865.865-1.823 1.607-2.778 2.308ZM9.458 6.523a2.073 2.073 0 1 1-2.93 2.931 2.073 2.073 0 0 1 2.93-2.931Z\" fill=\"currentColor\" fill-opacity=\".12\" stroke=\"currentColor\"></path>\n    </svg>\n    BUY 2 BABY TEES, GET 3RD FREE\n    <br>+ 5% OFF ON FIRST ORDER \n    <br>+ 10% OFF ON ₹999\n  </div>\n  <div style=\"color: #2e7d32; margin-bottom: 10px;\">\n    Discount Automatically Applied at Checkout - No coupon code needed!\n  </div>\n  <div style=\"font-size: 16px; color: #2e7d32;\">\n    Hurry! Offer ends in:\n    <span id=\"countdown\" style=\"background-color: #2e7d32; color: #fff; padding: 4px 8px; border-radius: 4px; font-weight: bold; margin-left: 5px;\"></span>\n  </div>\n</div>\n\n<script>\n// Set countdown to tomorrow at 11:00 PM\nfunction getEndOfTomorrow() {\n  var now = new Date();\n  var endDate = new Date();\n  endDate.setDate(now.getDate() + 1); // move 1 day ahead\n  endDate.setHours(23, 0, 0, 0); // set to 11:00:00 PM tomorrow\n  return endDate.getTime();\n}\n\nvar countdownTime = getEndOfTomorrow();\n\nvar x = setInterval(function() {\n  var now = new Date().getTime();\n  var distance = countdownTime - now;\n\n  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n  var seconds = Math.floor((distance % (1000 * 60)) / 1000);\n\n  document.getElementById(\"countdown\").innerHTML = \n    (hours < 10 ? \"0\" : \"\") + hours + \":\" + \n    (minutes < 10 ? \"0\" : \"\") + minutes + \":\" + \n    (seconds < 10 ? \"0\" : \"\") + seconds;\n\n  if (distance < 0) {\n    clearInterval(x);\n    document.getElementById(\"countdown\").innerHTML = \"Offer Ended\";\n    document.getElementById(\"countdown\").style.backgroundColor = \"#555\";\n  }\n}, 1000);\n</script>"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -83,6 +89,7 @@
         "title",
         "badges",
         "price",
+        "liquid_JwXemq",
         "rating",
         "payment_terms",
         "separator",
