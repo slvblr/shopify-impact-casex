@@ -392,144 +392,28 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "feature-chart": {
-      "type": "feature-chart",
-      "blocks": {
-        "16644246508f6fa13a-0": {
-          "type": "headings",
-          "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "Heading 4",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
-          }
-        },
-        "16644246508f6fa13a-1": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>Yes</p>",
-            "value_2": "<p>Yes</p>",
-            "value_3": "<p>No</p>",
-            "value_4": "<p>No</p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "16644246508f6fa13a-2": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>No</p>",
-            "value_2": "<p>Yes</p>",
-            "value_3": "<p>Yes</p>",
-            "value_4": "<p>No</p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "16644246508f6fa13a-0",
-        "16644246508f6fa13a-1",
-        "16644246508f6fa13a-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "Compare",
-        "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 5,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
-        "viewing_product": "",
-        "show_product_swatch": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "",
-        "chart_text_color": "",
-        "chart_true_false_color": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "What are your delivery options and how long does shipping take?",
+            "content": "<p>We offer fast and reliable delivery across India! Orders are typically delivered within <strong>2–6 business days</strong>, depending on your location. You'll receive tracking details once your order is shipped.<br/><br/></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Do you offer Cash on Delivery (COD)?",
+            "content": "<p>Yes! We offer <strong>Cash on Delivery (COD)</strong> as a payment option for your convenience. Just select COD at checkout and pay when your order arrives.<br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Are your products made with premium cotton, and can I return or exchange an item?",
+            "content": "<p>Absolutely! Our pieces are made using <strong>premium quality cotton</strong> for a soft, comfortable, and durable fit. We also offer <strong>easy returns and exchanges</strong> within 7 days of delivery—just make sure the item is unused and in original packaging.<br/><br/></p>"
           }
         }
       },
@@ -573,7 +457,6 @@
     "featured_collection_jRrML8",
     "impact-text",
     "slideshow_MxH7a8",
-    "feature-chart",
     "faq"
   ]
 }
